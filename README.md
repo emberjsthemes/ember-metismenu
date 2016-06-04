@@ -1,6 +1,36 @@
 # Ember-metismenu
 
-This README outlines the details of collaborating on this Ember addon.
+Metis menu ember component. This component implements an ember wrappen addon for the
+JQuery plugin [Metis Menu](https://github.com/onokumus/metisMenu).
+
+See details about this plugin here [http://mm.onokumus.com](http://mm.onokumus.com).
+
+## Usage
+
+After installing this addon simple add the component and include the items that you would like to add.
+
+For more information see the dummy app in this addon.
+
+```
+    {{#ember-metismenu classNames="side-bar-class"}}
+        <li class="active">
+            <a href="#" aria-expanded="true">Menu 1</a>
+            <ul aria-expanded="true">
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+            </ul>
+            </li>
+            <li>
+            <a href="#" aria-expanded="false">Menu 2</a>
+            <ul aria-expanded="false">
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+            </ul>
+        </li>
+    {{/ember-metismenu}}
+```
 
 ## Installation
 
@@ -24,3 +54,7 @@ This README outlines the details of collaborating on this Ember addon.
 * `ember build`
 
 For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+
+## Copyright
+
+This ember component was implemented by [EmberJSThemes.com](http://www.emberjsthemes.com/) and it is released under MIT license.

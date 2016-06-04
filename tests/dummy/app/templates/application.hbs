@@ -1,3 +1,25 @@
 <h2 id="title">Welcome to Ember</h2>
 
+
+<h3>Ember Metis Menu</h3>
+
+{{#ember-metismenu classNames="side-bar"}}
+  <li class="active">
+    <a href="#" aria-expanded="true">Menu 1</a>
+    <ul aria-expanded="true">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+  </li>
+  <li>
+    <a href="#" aria-expanded="false">Menu 2</a>
+    <ul aria-expanded="false">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+  </li>
+{{/ember-metismenu}}
+
 {{outlet}}
