@@ -11,7 +11,10 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbooth/ember-cli-flot.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -42,6 +45,7 @@
     "ember-metismenu",
     "metismenu"
   ],
+  "homepage": "https://github.com/emberjsthemes/ember-metismenu",
   "dependencies": {
     "ember-cli-babel": "^5.1.6",
     "ember-cli-htmlbars": "^1.0.3",
