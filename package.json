@@ -1,7 +1,7 @@
 {
   "name": "ember-metismenu",
   "version": "0.0.2",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember component for the jquery plugin metismenu",
   "directories": {
     "doc": "doc",
     "test": "tests"
