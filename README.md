@@ -34,6 +34,9 @@ For more information see the dummy app in this addon.
 
 ## Installation
 
+* From an ember cli application:
+* `ember install ember-metismenu`
+
 * `git clone` this repository
 * `npm install`
 * `bower install`
