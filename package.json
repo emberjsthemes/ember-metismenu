@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bbooth/ember-cli-flot.git"
+    "url": "https://github.com/emberjsthemes/ember-metismenu.git"
   },
   "engines": {
     "node": ">= 0.10.0"
